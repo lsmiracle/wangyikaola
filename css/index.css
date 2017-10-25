@@ -1,0 +1,81 @@
+html, body, div, p, ul, li, ol, dl, dt, dd, form, table, tr, td, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+html, body {
+  height: 100%; }
+
+/*header*/
+header {
+  width: 100%;
+  height: 130px;
+}
+header p{
+	height:80px;
+}
+header p a{
+	display: block;
+	width: 100%;
+	height: 80px;
+	background: url(../img/1bsqahcvh27_1920_80.jpg) left center no-repeat;
+	/*background-size: 100% 100%;*/
+	background-size: contain;
+}
+.index-header{
+	position: relative;
+	height:50px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0;
+}
+.index-header .container:first-child{
+	margin-left: 13%;
+	width:45%;
+}
+.index-header-left-l{
+	font-size: 14px;
+}
+.index-header .active{
+	display: block;
+}
+.index-header li .textcolor{
+	color: red;
+}
+.shoujihaigou{
+	position: absolute;
+	top: 120%;
+	left:31%;
+	width:120px;
+	height:160px;
+	border: 1px solid #888888;
+	display: none;
+}
+.shoujihaigou img{
+	width:110px;
+	height: 110px;
+	margin:0 5px;
+	margin-bottom: 10px;
+}
+.shoujihaigou span{
+	display: block;
+	width:120px;
+	text-align: center;
+	font-size: 10px;
+	color: red;
+}
+.saoma{
+	position: relative;
+}
+.saoma img{
+	position: absolute;
+	left: -110px;
+	width:100px;
+	height:100px;
+	display: none;
+}
