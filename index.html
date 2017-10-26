@@ -4,71 +4,61 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 		<title>首页</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<!--<link rel="stylesheet" href="css/bootstrap.min.css"/>-->
 		<link rel="stylesheet" href="css/index.css"/>
 	</head>
 	<body>
 		<header>
 			<p><a href="index.html"></a></p>
-			<div class="navbar navbar-default index-header">
-				<div class="container index-header-left">
-					<div class="navbar-header">
-						<a href="#" class="navbar-brand nav index-header-left-l">考拉欢迎你 !</a>
-					</div>
-					<ul class="nav navbar-nav">
-						<li class="daohang"><a href="#">登录</a></li>
-						<li class="daohang"><a href="#">免费注册</a></li>
-						<li class="shouji daohang"><a href="#"><span class="glyphicon glyphicon-phone"></span> 手机考拉海购</a></li>
-					</ul>
-					<p class="shoujihaigou"><img src="img/2dcode-app3.jpg"/><span>下载APP</span><span>领1000元新人礼包</span></p>
-				</div>
-				<div class="container">
-					<ul class="nav navbar-nav">
+			<div class="index-header">
+				<ul id="index-header-ulId">
+					<li class="daohang"><a href="#">考拉欢迎你 !</a></li>
+					<li class="daohang"><a href="#">登录</a></li>
+					<li class="daohang"><a href="#">免费注册</a></li>
+					<li class="shouji daohang"><a href="#">手机考拉海购</a></li>
+				</ul>
+				<p class="shoujihaigou"><img src="img/2dcode-app3.jpg"/><span>下载APP</span><span>领1000元新人礼包</span></p>
+				<div class="index-header-right">
+					<ul>
 						<li class="daohang"><a href="#">每日签到</a></li>
 						<li class="daohang"><a href="#">我的订单</a></li>
 						<li class="dropdown daohang">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								个人中心
-								<span class="caret"></span>
-							</a>
+							<a href="#">个人中心</a>
 							<ul class="dropdown-menu">
-								<li class="daohang"><a href="#">我的优惠券</a></li>
-								<li class="daohang"><a href="#">我的考拉豆</a></li>
-								<li class="daohang"><a href="#">账号管理</a></li>
-								<li class="daohang"><a href="#">我的实名认证</a></li>
-								<li class="daohang"><a href="#">我收藏的商品</a></li>
-								<li class="daohang"><a href="#">我关注的品牌</a></li>
-								<li class="disabled daohang"><a href="#">售后管理</a></li>
+								<li class="dropdown-menu-drop"><a href="#">我的优惠券</a></li>
+								<li class="dropdown-menu-drop"><a href="#">我的考拉豆</a></li>
+								<li class="dropdown-menu-drop"><a href="#">账号管理</a></li>
+								<li class="dropdown-menu-drop"><a href="#">我的实名认证</a></li>
+								<li class="dropdown-menu-drop"><a href="#">我收藏的商品</a></li>
+								<li class="dropdown-menu-drop"><a href="#">我关注的品牌</a></li>
+								<li class="dropdown-menu-drop"><a href="#">售后管理</a></li>
 							</ul>
 						</li>
 						<li class="dropdown daohang">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								客户服务
-								<span class="caret"></span>
-							</a>
+							<a href="#">客户服务</a>
 							<ul class="dropdown-menu">
-								<li class="daohang"><a href="#">联系客服</a></li>
-								<li class="daohang"><a href="#">帮助中心</a></li>
+								<li class="dropdown-menu-drop"><a href="#">联系客服</a></li>
+								<li class="dropdown-menu-drop"><a href="#">帮助中心</a></li>
 							</ul>
 						</li>
 						<li class="dropdown daohang">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">充值中心 <span class="caret"></span></a>
+							<a href="#">充值中心</a>
 							<ul class="dropdown-menu">
-								<li class="daohang"><a href="#">话费流量</a></li>
-								<li class="daohang"><a href="#">游戏充值</a></li>
-								<li class="daohang"><a href="#">AppStore充值码</a></li>
+								<li class="dropdown-menu-drop"><a href="#">话费流量</a></li>
+								<li class="dropdown-menu-drop"><a href="#">游戏充值</a></li>
+								<li class="dropdown-menu-drop"><a href="#">AppStore充值码</a></li>
 							</ul>
 						</li>
-						<li><a href="#">消费者告知书</a></li>
-						<li class="dropdown saoma daohnag">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">更多 <span class="caret"></span></a>
+						<li class="daohang"><a href="#">消费者告知书</a></li>
+						<li class="dropdown saoma daohang">
+							<a href="#">更多</a>
 							<ul class="dropdown-menu">
-								<li class="daohang"><a href="#">收藏本站</a></li>
-								<li class="daohang"><a href="#">新浪微博</a></li>
-								<li class="daohang"><a href="#">微信公众号</a></li>
-								<li class="daohang"><a href="#">易信公众号</a></li>
-								<li class="daohang"><a href="#">招商合作</a></li>
-								<li class="daohang"><a href="#">考拉招聘会</a></li>
+								<li class="dropdown-menu-drop"><a href="#">收藏本站</a></li>
+								<li class="dropdown-menu-drop"><a href="#">新浪微博</a></li>
+								<li class="dropdown-menu-drop"><a href="#">微信公众号</a></li>
+								<li class="dropdown-menu-drop"><a href="#">易信公众号</a></li>
+								<li class="dropdown-menu-drop"><a href="#">招商合作</a></li>
+								<li class="dropdown-menu-drop"><a href="#">考拉招聘会</a></li>
 							</ul>
 							<img src="img/2dcode-app.jpg"/>
 							<img src="img/2dcode-wb.jpg"/>
@@ -77,10 +67,112 @@
 			  	    </ul>
 				</div>	
 			</div>
-			
+			<div class="index-logo">
+				<div class="index-logo-left">
+					<img src="img/264271ddbec447288f17aef71119b1f4.png"/>
+				</div>
+				<div class="index-logo-middle">
+					<input type="text" class="form-control" placeholder="雅诗兰黛"/>
+					<ul  class="index-logo-nav">
+						<li><a href="#" style="color: red;">海淘拾货季</a></li>
+						<li><a href="#">面膜</a></li>
+						<li><a href="#">德运</a></li>
+						<li><a href="#">铁元</a></li>
+						<li><a href="#">sk2</a></li>
+						<li><a href="#">眼霜</a></li>
+						<li><a href="#">麦片</a></li>
+						<li><a href="#">电动牙刷</a></li>
+					</ul>
+				</div>
+				<div class="index-logo-right">
+					<a href="#">购物车</a>
+				</div>
+			</div>
+		    <nav class="index-nav">
+		    	<ul>
+		    		<li><a href="#">首页</a></li>
+		    		<li><a href="#">今日限时购</a></li>
+		    		<li><a href="#">每日上新</a></li>
+		    		<li><a href="#">国家馆</a></li>
+		    		<li><a href="#">全球旗舰</a></li>
+		    	</ul>
+		    	<ul>
+    				<li>所有分类</li>
+    				<li>母婴儿童<span> > </span></li>
+    				<li>美容彩妆<span> > </span></li>
+    				<li>服饰鞋包<span> > </span></li>
+    				<li>家居个护<span> > </span></li>
+    				<li>营养保健<span> > </span></li>
+    				<li>海外直邮<span> > </span></li>
+    				<li>数码家电<span> > </span></li>
+    				<li>环球美食<span> > </span></li>
+    				<li>户外运动<span> > </span></li>
+    				<li>水果生鲜<span> > </span></li>
+    				<li>药品资讯<span> > </span></li>
+    			</ul>
+    			<ul id="index-nav-content">
+    				<li>
+    					<div>
+    						<dl>
+					     	<dt>奶粉</dt>
+					     	<dd>爱他美</dd>
+					     	<dd>牛栏</dd>
+					     	<dd>a2</dd>
+					     	<dd>喜宝</dd>
+					     	<dd>贝拉米</dd>
+					     	<dd>美素佳儿</dd>
+					     	<dd>美林</dd>
+					     	<dd>惠氏</dd>
+					     	<dd>雅培</dd>
+					     	<dd>美赞臣</dd>
+					     	<dd>雀巢</dd>
+					     	<dd>合生元</dd>
+					     	<dd>满趣健</dd>
+					     	<dd>Pre段</dd>
+					     	<dd>1段</dd>
+					     	<dd>2段</dd>
+					     	<dd>3段</dd>
+					     	<dd>5段(2+)</dd>
+					     	<dd>4段(1+)</dd>
+					     	<dd>6段</dd>
+					     </dl>
+					     <dl>
+					     	<dt>纸尿裤/拉拉裤</dt>
+					     	<dd></dd>
+					     </dl>
+					     <dl>
+					     	<dt></dt>
+					     	<dd></dd>
+					     </dl营养辅食>
+					     <dl>
+					     	<dt>宝宝用品</dt>
+					     	<dd></dd>
+					     </dl>
+					     <dl>
+					     	<dt>童装童鞋</dt>
+					     	<dd></dd>
+					     </dl>
+					     <dl>
+					     	<dt>孕妈必备</dt>
+					     	<dd></dd>
+					     </dl>
+    					</div> 
+    				</li>
+    				<li></li>
+    				<li></li>
+    				<li></li>
+    				<li></li>
+    				<li></li>
+    				<li></li>
+    				<li></li>
+    				<li></li>
+    				<li></li>
+    				<li></li>
+    			</ul>
+		    </nav>
 		</header>
 	</body>
 </html>
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+<!--<script type="text/javascript" src="js/bootstrap.min.js"></script>	-->
 <script type="text/javascript" src="js/public.js"></script>	
